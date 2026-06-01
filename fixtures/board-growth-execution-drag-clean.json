@@ -1,0 +1,349 @@
+{
+  "generatedAt": "2026-06-01T10:20:07.070Z",
+  "summary": {
+    "items": 6,
+    "highDragLanes": 6,
+    "escalationLanes": 3,
+    "averageBoardVisibility": 62,
+    "valueAtStakeMillions": 144,
+    "leadingMessage": "Execution drag is stacking across multiple lanes and now threatens the board story more than market demand does."
+  },
+  "items": [
+    {
+      "id": "ai-governance-drag",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "UNBLOCK",
+      "dragTheme": "Governance review load is slowing the next AI release tranche more than model capability is.",
+      "boardQuestion": "Which flagship lane has momentum but is being slowed by preventable operating drag?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The AI control plane is real and productive, but approval cycles are starting to lengthen as more teams route requests through the same governance reviewers.",
+      "blockerHeadline": "Approval and evaluation throughput is becoming the new release bottleneck.",
+      "delaySignal": "Agent launches keep slipping behind governance review queue age.",
+      "escalationOwner": "AI governance operations lead",
+      "requiredEvidence": [
+        "review queue aging",
+        "eval completion latency",
+        "exception backlog"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 71,
+      "operatingFrictionScore": 66,
+      "decisionLagScore": 64,
+      "deliveryReliabilityScore": 82,
+      "boardVisibilityScore": 79,
+      "valueAtStakeMillions": 27,
+      "headline": "AI growth is being slowed by governance throughput, not by product scarcity.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Coordination latency is now a material drag on board-backed execution."
+      },
+      "frictionAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Operating friction is severe enough to distort the current growth story."
+      },
+      "lagAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision lag is severe enough to undermine the current execution cadence."
+      },
+      "deliveryAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Delivery reliability is strong enough to absorb the current pace of change."
+      },
+      "visibilityAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Board visibility is clear enough to keep the operating story credible."
+      },
+      "compositeDragScore": 48
+    },
+    {
+      "id": "identity-drag",
+      "lane": "Identity and access governance",
+      "track": "IDENTITY",
+      "action": "ESCALATE",
+      "dragTheme": "Identity evidence closure and privileged-review cleanup are dragging the broader admin modernization story.",
+      "boardQuestion": "Which trust lane is slowing adjacent programs because cleanup is consuming too much operating time?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "The identity estate is real, but remediation and review closure are consuming so much attention that adjacent rollout work keeps slipping.",
+      "blockerHeadline": "Exception cleanup is starving forward progress.",
+      "delaySignal": "Admin programs pause while reviewer backlog absorbs operating time.",
+      "escalationOwner": "Identity governance director",
+      "requiredEvidence": [
+        "review closure trend",
+        "exception backlog",
+        "role drift remediation aging"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 58,
+      "operatingFrictionScore": 47,
+      "decisionLagScore": 45,
+      "deliveryReliabilityScore": 61,
+      "boardVisibilityScore": 54,
+      "valueAtStakeMillions": 19,
+      "headline": "Identity drag is now a portfolio drag, not just a security queue problem.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Coordination drag is rising and will slow the next board-visible milestone without tighter ownership."
+      },
+      "frictionAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Operating friction is compounding and should be treated as a delivery risk, not a minor process tax."
+      },
+      "lagAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision lag is stretching the time between board intent and operating action."
+      },
+      "deliveryAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Delivery reliability is too weak to support the current pace of expansion."
+      },
+      "visibilityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board visibility is too thin to support confident decisions."
+      },
+      "compositeDragScore": 47
+    },
+    {
+      "id": "revenue-drag",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "PAUSE",
+      "dragTheme": "Refresh failures and attribution disputes are slowing board-trusted growth decisions.",
+      "boardQuestion": "Which commercial lane is creating decision drag because the underlying data is not stable enough?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "Reporting surfaces are live, but board-safe growth decisions keep slowing because refresh integrity and attribution trust still need manual reconciliation.",
+      "blockerHeadline": "Decision speed is lagging because the numbers still need explanation loops.",
+      "delaySignal": "Growth planning meetings slip while teams reconcile reporting disagreements.",
+      "escalationOwner": "Revenue systems lead",
+      "requiredEvidence": [
+        "refresh incident trend",
+        "attribution dispute log",
+        "manual reconciliation hours"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 49,
+      "operatingFrictionScore": 52,
+      "decisionLagScore": 43,
+      "deliveryReliabilityScore": 57,
+      "boardVisibilityScore": 51,
+      "valueAtStakeMillions": 25,
+      "headline": "Revenue growth is being delayed by explanation work, not just by market execution.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Coordination drag is rising and will slow the next board-visible milestone without tighter ownership."
+      },
+      "frictionAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Operating friction is compounding and should be treated as a delivery risk, not a minor process tax."
+      },
+      "lagAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision lag is stretching the time between board intent and operating action."
+      },
+      "deliveryAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Delivery reliability is too weak to support the current pace of expansion."
+      },
+      "visibilityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board visibility is too thin to support confident decisions."
+      },
+      "compositeDragScore": 47.2
+    },
+    {
+      "id": "fintech-drag",
+      "lane": "FinTech diligence and transaction controls",
+      "track": "FINTECH",
+      "action": "REASSIGN",
+      "dragTheme": "Fragmented diligence proofs are creating cross-team latency across payments, merchant review, treasury, and KYC.",
+      "boardQuestion": "Which lane needs ownership reassignment because the drag is spread across too many partial control rooms?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "The surfaces exist, but leadership still spends too much meeting time stitching them together before a decision is board-safe.",
+      "blockerHeadline": "Fragmented proofs are slowing capital and risk decisions.",
+      "delaySignal": "Merchant, treasury, and KYC reviews queue behind fragmented evidence requests.",
+      "escalationOwner": "Finance transformation lead",
+      "requiredEvidence": [
+        "diligence packet turnaround",
+        "queue overlap log",
+        "manual proof assembly hours"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 44,
+      "operatingFrictionScore": 41,
+      "decisionLagScore": 39,
+      "deliveryReliabilityScore": 55,
+      "boardVisibilityScore": 46,
+      "valueAtStakeMillions": 33,
+      "headline": "FinTech drag comes from fragmented ownership more than missing evidence.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Coordination drag is rising and will slow the next board-visible milestone without tighter ownership."
+      },
+      "frictionAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Operating friction is compounding and should be treated as a delivery risk, not a minor process tax."
+      },
+      "lagAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision lag is stretching the time between board intent and operating action."
+      },
+      "deliveryAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Delivery reliability is too weak to support the current pace of expansion."
+      },
+      "visibilityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board visibility is too thin to support confident decisions."
+      },
+      "compositeDragScore": 44.6
+    },
+    {
+      "id": "procurement-drag",
+      "lane": "Procurement, trust, and buyer proof",
+      "track": "PROCUREMENT",
+      "action": "UNBLOCK",
+      "dragTheme": "Enterprise deal velocity is now limited by answer throughput and proof freshness, not by product positioning.",
+      "boardQuestion": "Which commercial lane can move faster if trust and procurement drag is reduced?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "The trust and procurement stack is strong, but answer freshness and questionnaire workload still slow the marginal enterprise deal.",
+      "blockerHeadline": "Questionnaire throughput is the remaining drag on an otherwise strong buyer lane.",
+      "delaySignal": "Deals stall while updated proofs and answers are assembled.",
+      "escalationOwner": "Trust center owner",
+      "requiredEvidence": [
+        "answer SLA",
+        "proof freshness log",
+        "questionnaire queue aging"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 76,
+      "operatingFrictionScore": 72,
+      "decisionLagScore": 70,
+      "deliveryReliabilityScore": 86,
+      "boardVisibilityScore": 84,
+      "valueAtStakeMillions": 17,
+      "headline": "Procurement can accelerate if answer and proof throughput is unblocked.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Coordination latency is now a material drag on board-backed execution."
+      },
+      "frictionAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Operating friction is severe enough to distort the current growth story."
+      },
+      "lagAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Decision lag is severe enough to undermine the current execution cadence."
+      },
+      "deliveryAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Delivery reliability is strong enough to absorb the current pace of change."
+      },
+      "visibilityAssessment": {
+        "severity": "LOW",
+        "ok": true,
+        "message": "Board visibility is clear enough to keep the operating story credible."
+      },
+      "compositeDragScore": 49.6
+    },
+    {
+      "id": "biotech-drag",
+      "lane": "Biotech and diagnostics control lanes",
+      "track": "BIOTECH",
+      "action": "ESCALATE",
+      "dragTheme": "Regulated review continuity and staffing are creating latency across assay, CAPA, safety, and specimen lanes.",
+      "boardQuestion": "Which regulated lane is slowing because review continuity cannot absorb the current surface count?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The vertical is real, but the number of regulated surfaces is growing faster than the review team can keep moving them forward cleanly.",
+      "blockerHeadline": "Review continuity is the drag, not the lack of worthwhile surface area.",
+      "delaySignal": "Release and change-control packets stack up behind the same regulated reviewers.",
+      "escalationOwner": "GxP program manager",
+      "requiredEvidence": [
+        "review queue age",
+        "CAPA closure lag",
+        "change packet turnaround"
+      ],
+      "relatedSurfaces": [],
+      "companyTags": [],
+      "coordinationLatencyScore": 55,
+      "operatingFrictionScore": 50,
+      "decisionLagScore": 48,
+      "deliveryReliabilityScore": 60,
+      "boardVisibilityScore": 58,
+      "valueAtStakeMillions": 23,
+      "headline": "Biotech drag is now a review-capacity problem the board should see directly.",
+      "narrative": "[redacted]",
+      "nextMove": "[redacted]",
+      "coordinationAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Coordination drag is rising and will slow the next board-visible milestone without tighter ownership."
+      },
+      "frictionAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Operating friction is compounding and should be treated as a delivery risk, not a minor process tax."
+      },
+      "lagAssessment": {
+        "severity": "MEDIUM",
+        "ok": false,
+        "message": "Decision lag is stretching the time between board intent and operating action."
+      },
+      "deliveryAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Delivery reliability is too weak to support the current pace of expansion."
+      },
+      "visibilityAssessment": {
+        "severity": "HIGH",
+        "ok": false,
+        "message": "Board visibility is too thin to support confident decisions."
+      },
+      "compositeDragScore": 47
+    }
+  ]
+}
