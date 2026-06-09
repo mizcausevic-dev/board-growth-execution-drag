@@ -94,6 +94,21 @@ function shell(title: string, path: string, body: string, description: string) {
       .metric-copy { margin-top: 10px; color: var(--muted); line-height: 1.5; }
       .section { margin-top: 24px; }
       .grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+      .depth-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+        margin-top: 18px;
+      }
+      .depth-card {
+        background: rgba(16, 32, 50, 0.76);
+        border: 1px solid rgba(125, 196, 255, 0.12);
+        border-radius: 22px;
+        padding: 18px;
+      }
+      .depth-card h3 { margin: 10px 0; font-size: 24px; line-height: 1.1; }
+      .depth-card p { color: var(--muted); line-height: 1.6; }
+      .story { border-left: 4px solid var(--accent); }
       .card h3 { margin: 12px 0 10px; font-size: 30px; line-height: 1.05; }
       .card p, li { color: var(--muted); line-height: 1.6; }
       .table-wrap { overflow-x: auto; }
@@ -151,6 +166,36 @@ function navLinks(path: string) {
     .join("");
 }
 
+function productDepthSection() {
+  return `<section class="section story">
+      <span class="eyebrow">What this product does</span>
+      <h2>Execution-drag intelligence for board-backed growth plans that are losing speed in handoffs, blockers, and decision loops.</h2>
+      <p class="lede">This surface translates operational friction into a board-readable packet: where delivery is slowing, who owns the lane, what evidence is missing, what value is exposed, and whether leadership should unblock, reassign, pause, or escalate.</p>
+      <div class="depth-grid">
+        <article class="depth-card">
+          <div class="chip">GTM analyst lens</div>
+          <h3>Find the drag source.</h3>
+          <p>Separates coordination drag, tooling friction, decision latency, and visibility gaps so growth misses do not get explained away as vague execution risk.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">SaaS value lens</div>
+          <h3>Protect value at stake.</h3>
+          <p>Connects the delay to board-visible dollars, roadmap confidence, operating leverage, and whether additional investment would accelerate or compound waste.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">Technical proof</div>
+          <h3>Keep evidence inspectable.</h3>
+          <p>Ships typed routes, JSON payloads, fixtures, smoke checks, and prerendered proof pages that make the board story reproducible.</p>
+        </article>
+        <article class="depth-card">
+          <div class="chip">Shared pattern</div>
+          <h3>What these repos have in common.</h3>
+          <p>Each Kinetic Gain surface turns complexity into owner, risk, evidence, decision, and next action instead of another generic dashboard.</p>
+        </article>
+      </div>
+    </section>`;
+}
+
 export function renderOverview() {
   const executiveSummary = summary();
   const lanes = dragLane().slice(0, 4);
@@ -186,6 +231,7 @@ export function renderOverview() {
         <div class="metric"><span class="metric-label">Value at stake</span><span class="metric-value">$${executiveSummary.valueAtStakeMillions}M</span><div class="metric-copy">Modeled exposure tied to unresolved execution drag.</div></div>
       </div>
     </section>
+    ${productDepthSection()}
     <section class="section">
       <h2>Drag lane</h2>
       <div class="grid">${cards}</div>
@@ -324,6 +370,7 @@ export function renderDocs() {
       <p class="lede">This surface packages board-readable execution drag into reproducible routes and JSON outputs.</p>
       <div class="nav">${navLinks("/docs")}</div>
     </section>
+    ${productDepthSection()}
     <section class="section">
       <ul>
         <li><code>/drag-lane</code> keeps actions, drag themes, and next moves readable.</li>
